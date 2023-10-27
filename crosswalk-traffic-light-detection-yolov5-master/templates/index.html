@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/index.css">
+    <title>AI-VIWAD</title>
+</head>
+<body>
+    <form id="is_shoe_form" method="POST" action="/select_model">
+        <input type="hidden" name="select_model" value="is_shoe">
+    </form>
+    <div id="is_shoe_button">
+        <div class="center_div">
+            <img src="static/iphone.png" width="160rem" height="160rem">
+            <p class="div_title"><strong>안전실발 + AI</strong></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('is_shoe_button').addEventListener('click', function() {
+            document.getElementById('is_shoe_form').submit();
+        });
+    </script>
+    
+    <!-- <script>
+        const touchArea = document.getElementById("is_shoe_button");
+        let touchCount = 0;
+
+        // 터치 이벤트 핸들러
+        touchArea.addEventListener("touchstart", function (event) {
+            touchCount++;
+            if (touchCount === 2) {
+                alert("두 번 터치했습니다.");
+                touchCount = 0; // 초기화
+            }
+        });
+
+        touchArea.addEventListener("touchend", function (event) {
+            if (touchCount === 1) {
+                alert("한 번 터치했습니다.");
+                touchCount = 0; // 초기화
+            }
+        });
+    </script> -->
+    <form id="not_shoe_form" method="POST" action="/select_model">
+        <input type="hidden" name="select_model" value="not_shoe">
+    </form>
+    <div id="not_shoe_button">
+        <div class="center_div">
+            <img src="static/div_img.png" width="160vh" height="160rem">
+            <p class="div_title"><strong>신호등 판별 AI</strong></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('not_shoe_button').addEventListener('click', function() {
+            document.getElementById('not_shoe_form').submit();
+        });
+    </script>
+</body>
+</html>
