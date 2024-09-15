@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+#is_shoe_button{
+    width: 97%;
+    height: 47vh; /* 화면 높이의 100%를 채웁니다. */
+    margin-top: 1vh;
+    background-color: #F4C045;
+    color: #fff;
+    border:solid 1px white;
+    border-radius: 10px; /* 기존의 border-radius를 제거합니다. */
+    display: flex; /* 상위 div를 Flex 컨테이너로 설정 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+#not_shoe_button{
+    width: 97%;
+    height: 47vh; /* 화면 높이의 100%를 채웁니다. */
+    margin-top: 1vh;
+    background-color: #d46b6b;
+    color: #fff;
+    border:solid 1px white;
+    border-radius: 10px; /* 기존의 border-radius를 제거합니다. */
+    display: flex; /* 상위 div를 Flex 컨테이너로 설정 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+}
+.div_title{
+    font-size: 1.2rem;
+    text-align: center;
+}
