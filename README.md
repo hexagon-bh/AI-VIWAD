@@ -33,7 +33,7 @@
     - 인식 시 진동 모듈을 통해 진동을 통한 알림
 
 2. 신호등 인식(Yolo v5) 및 웹 개발<br>
-    <table>
+    <table style="border: none;">
     <tr>
     <td><img src="/md - 웹 홈화면.png" alt="웹 홈화면" width="300"/></td>
     <td><img src="/md - 웹 캠화면.png" alt="웹 캠화면" width="300"/></td>
