@@ -2,7 +2,7 @@
 *Artificial Inteligence - Visual Impaired Walking Assistent Device*<br>
 > 2023년 CodeFair - 시각장애인을 위한 보행 보조 장치
 
-<img src="/md - 작품사진.png" title="DiSRHiT"></img><br/>
+<img src="\md - 작품 사진.png" title="AI-VIWAD"></img><br/>
 [작동영상]: https://youtu.be/XwjiE8r5t54<br>
 [Team]: Makers🛠️<br>
 [Maker]: 조윤혁(Leader & Electronic), 송승현(Electronic & Software), 양예성(Software) / Assistant: 김강현(Web dev)<br>
