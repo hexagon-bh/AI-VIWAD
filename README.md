@@ -2,7 +2,7 @@
 *Artificial Inteligence - Visual Impaired Walking Assistent Device*<br>
 > 2023년 CodeFair - 시각장애인을 위한 보행 보조 장치
 
-<img src="\md - 작품 사진.png" title="AI-VIWAD"></img><br/>
+<img src="\README asses\md - 작품 사진.png" title="AI-VIWAD"></img><br/>
 [작동영상]: https://youtu.be/XwjiE8r5t54<br>
 [Team]: Makers🛠️<br>
 [Maker]: 조윤혁(Leader & Electronic), 송승현(Electronic & Software), 양예성(Software) / Assistant: 김강현(Web dev)<br>
@@ -26,14 +26,14 @@
 >아두이노를 사용해 컬러센서를 통한 점자블록 인식
 
 1. 전용 신발을 제작 및 점자블록 인식<br>
-<img src="/md - 신발 내 장착.png"></img>
+<img src="/README asses/md - 신발 내 장착.png"></img>
     - 신발 맞춤 제작 후 보드(ARDUINO) 탑재 가능하도록 후가공
     - 회로 제작 및 컬러센서 연결
     - 컬러센서를 통해 노란색을 인식하면 점자블록으로 인식
     - 인식 시 진동 모듈을 통해 진동을 통한 알림
 
 2. 신호등 인식 및 빨간불 파란불 인식<br>
-<img src="/md - 욜로 로고.png"></img>
+<img src="/README asses/md - 욜로 로고.png"></img>
     - Yolo v5를 사용하여 인공지능 제작
     - 빨간불일 때의 신호등과 파란 불일때의 신호등을 구분해서 학습
     - 신호등을 인식하면 tts를 통해 신호등의 상태를 음성으로 알림
@@ -41,8 +41,8 @@
 3. 웹 개발<br>
     <table style="border: none;">
     <tr>
-    <td><img src="/md - 웹 홈화면.png" alt="웹 홈화면" width="300"/></td>
-    <td><img src="/md - 웹 캠화면.png" alt="웹 캠화면" width="300"/></td>
+    <td><img src="/README asses/md - 웹 홈화면.png" alt="웹 홈화면" width="300"/></td>
+    <td><img src="/README asses/md - 웹 캠화면.png" alt="웹 캠화면" width="300"/></td>
     </tr>
     </table>
 
